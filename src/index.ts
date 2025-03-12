@@ -1,8 +1,9 @@
 import { mergeConfig, type UserConfig } from 'vite'
-import { buildConfig } from '@/vite.config.build.ts'
+import build from '@/build.ts'
+import server from '@/server.ts'
 
 export const lonewolfyx = (config: UserConfig = {}) => {
-	return mergeConfig(buildConfig, config)
+	return mergeConfig({ server, build }, config)
 }
 
 export default lonewolfyx

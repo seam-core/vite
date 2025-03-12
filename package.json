@@ -1,6 +1,6 @@
 {
-	"name": "@seam-core/vite",
-	"version": "0.0.1",
+	"name": "@lonewolfyx/vite",
+	"version": "0.0.2",
 	"type": "module",
 	"description": "Encapsulated Vite configuration",
 	"author": "lonewolfyx",

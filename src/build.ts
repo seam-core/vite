@@ -1,6 +1,6 @@
 import { defineConfig, type UserConfig } from 'vite'
 
-export const buildConfig = defineConfig({
+export default defineConfig({
 	build: {
 		// 指定生成静态资源的存放路径
 		assetsDir: './static',
