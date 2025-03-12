@@ -1,0 +1,16 @@
+{
+	"extends": "@lonewolfyx/tsconfig/tsconfig.lib.json",
+	"compilerOptions": {
+		"baseUrl": "./"
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"dist",
+		"scripts",
+		"**/*.test.ts",
+		"**/*.spec.ts"
+	]
+}

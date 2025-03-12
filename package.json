@@ -1,0 +1,41 @@
+{
+	"name": "@seam-core/vite",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "Encapsulated Vite configuration",
+	"author": "lonewolfyx",
+	"files": [
+		"dist"
+	],
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"format": "prettier --write ./",
+		"build": "tsup",
+		"dev": "tsup --watch"
+	},
+	"devDependencies": {
+		"@lonewolfyx/tsconfig": "^0.0.2",
+		"@tsconfig/node22": "^22.0.0",
+		"@types/fs-extra": "^11.0.4",
+		"@types/node": "^22.13.5",
+		"prettier": "^3.5.3",
+		"prettier-plugin-multiline-arrays": "^3.0.6",
+		"tsup": "^8.4.0",
+		"typescript": "^5.8.2",
+		"vitest": "^3.0.8"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/seam-core/vite",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/seam-core/vite.git"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org",
+		"access": "public"
+	},
+	"dependencies": {
+		"vite": "^6.2.1"
+	}
+}
